@@ -7,7 +7,7 @@ public final class CurrencyFormatter {
     
     private let formatter: NumberFormatter
     
-    init(formatter: NumberFormatter = defaultFormatter()) {
+    public init(formatter: NumberFormatter = defaultFormatter()) {
         self.formatter = formatter
     }
     
